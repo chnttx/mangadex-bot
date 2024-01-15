@@ -1,0 +1,32 @@
+{
+  "name": "mangadex-bot",
+  "version": "1.0.0",
+  "description": "discord bot for mangadex",
+  "main": "./index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chnttx/mangadex-bot.git"
+  },
+  "author": "chnttx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chnttx/mangadex-bot/issues"
+  },
+  "homepage": "https://github.com/chnttx/mangadex-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.67",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
